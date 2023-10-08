@@ -1,0 +1,166 @@
+.btn{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #03A9F4;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #F5F5F5;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.btn-outline {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-color: #03A9F4;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #03A9F4;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+    
+}
+.divider{
+    height: 2px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 470px;
+    background-color: #FF8A50;
+    border-radius: 2px;
+}
+.dividersmall{
+    height: 2px;
+    margin-bottom: 40px;
+    width: 100%;
+    background-color: #FF8A50;
+    border-radius: 2px;
+}
+.primaryfont{
+    
+    color: #000;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 150%; /* 54px */
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 100%;
+    background-color: #FF5722;
+    height: 64px;
+    justify-content: start;
+    vertical-align: middle;
+    align-items: center;
+    gap: 12px;
+    color: white;
+}
+.destinationcard{
+    width: 470px;
+    height: 168px;
+}
+.image{
+    margin-right: 19px;
+    border-radius: 5px;
+    width: 126px;
+    height: 168px;
+}
+.itemcontainer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.countryfont{
+    color: #333;
+    font-size: 10.24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.741px;
+    margin-right: 12px;
+    margin-left: 4px;
+}
+.viewmapsfont{
+    color: #918E9B;
+    font-size: 10.24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+.destinationnamefont{
+    color: #333;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 5px;
+}
+.datefont{
+    color: #333;
+    font-size: 10.24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 13px;
+}
+.descriptionfont{
+    color: #333;
+    font-size: 10.24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 15.36px */
+    margin-top: 9px;
+}
+.inputfield{
+    padding: 12px;
+    border-radius: 5px;
+    border-top: 1px solid #FF8A50;
+    border-left: 1px solid #FF8A50;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 24px;
+}
+.placeholderfont{
+    color: #C2C2C2;
+}
+.labelfont{
+    font-family: Inter;
+    font-size: 10.24px;
+}
